@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="player.css" rel="stylesheet" type="text/css" />
+  <title>my music</title>
+</head>
+
+<body>
+  <div class="player">
+    <div class="player__header">
+      <div class="player__img player__img--absolute slider">
+        <button class="player__button player__button--absolute--nw playlist">
+          <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon" />
+        </button>
+        <button class="player__button player__button--absolute--center play">
+          <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon" />
+          <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon" />
+        </button>
+        <div class="slider__content">
+          <img class="img slider__img" src="barak.webp" alt="cover" />
+          <img class="img slider__img" src="birdy.jpg" alt="cover" />
+          <img class="img slider__img" src="Brent Faiyaz.jpg" alt="cover" />
+          <img class="img slider__img" src="Bruno mars.jpg" alt="cover" />
+          <img class="img slider__img" src="Coldplay.jpg" alt="cover" />
+          <img class="img slider__img" src="Drake.jpg" alt="cover" />
+          <img class="img slider__img" src="Tavo the produce.jpg" alt="cover" />
+          <img class="img slider__img" src="The ink spots.jpg" alt="cover" />
+          <img class="img slider__img" src="Imagine dragons.jpg" alt="cover" />
+          <img class="img slider__img" src="Morat Juanes.jpg" alt="cover" />
+          <img class="img slider__img" src="My_Chemical_Romance.webp" alt="cover" />
+          <img class="img slider__img" src="olivia.webp" alt="cover" />
+          <img class="img slider__img" src="Rata Blanca.jpg" alt="cover" />
+          <img class="img slider__img" src="Stray Kids.jpg" alt="cover" />
+          <img class="img slider__img" src="La del rey.jpg" alt="cover" />
+          <img class="img slider__img" src="papa roach.jpg" alt="cover" />
+          <img class="img slider__img" src="chop suey.jpg" alt="cover" />
+          <img class="img slider__img" src="Montesanto.jpg" alt="cover" />
+          <img class="img slider__img" src="new winw.jpeg" alt="cover" />
+          <img class="img slider__img" src="barak.webp" alt="cover" />
+          <img class="img slider__img" src="christine d'clario.jpg" alt="cover" />
+          <img class="img slider__img" src="grace rodriguez.jpg" alt="cover" />
+          <img class="img slider__img" src="Oasis Ministry.jpg" alt="cover" />
+          <img class="img slider__img" src="Felixis Falcón ft. Chanel Novas.jpg" alt="cover" />
+          <img class="img slider__img" src="Virginia Brito.jpg" alt="cover" />
+          <img class="img slider__img" src="Tomás Ocampo.jpg" alt="cover" />
+          <img class="img slider__img" src="Generación 12.jpg" alt="cover" />
+          <img class="img slider__img" src="Oasis Ministry.jpg" alt="cover" />
+        </div>
+      </div>
+
+      <div class="player__controls">
+        <button class="player__button back">
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon" />
+        </button>
+        <p class="player__context slider__context">
+          <strong class="slider__name"></strong>
+          <span class="player__title slider__title"></span>
+        </p>
+        <button class="player__button next">
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon" />
+        </button>
+        <div class="progres">
+          <div class="progres__filled"></div>
+        </div>
+      </div>
+    </div>
+
+    <ul class="player__playlist list">
+      <li class="player__song">
+        <img class="player__img img" src="barak.webp" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">A Danzar</b>
+          <span class="flex">
+            <span class="player__title">Barak</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Barak ft Redimi2   A Danzar  Video Oficial  Radical Live.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="birdy.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Not about angels</b>
+          <span class="flex">
+            <span class="player__title">Birdy</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="y2mate.com - Birdy  Not About Angels from The Fault In Our Stars Soundtrack Official Video.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Brent Faiyaz.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">JACKIE BROWN</b>
+          <span class="flex">
+            <span class="player__title">Brent Faiyaz</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Brent Faiyaz  JACKIE BROWN Official Audio.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Bruno mars.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Thats What I Like</b>
+          <span class="flex">
+            <span class="player__title">Bruno mars</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Bruno Mars  Thats What I Like Official Music Video.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Coldplay.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Viva La Vida</b>
+          <span class="flex">
+            <span class="player__title">Coldplay</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Coldplay  Viva La Vida Official Video.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Drake.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">God's Plan</b>
+          <span class="flex">
+            <span class="player__title">Drake</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Drake  Gods Plan.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Tavo the produce.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Negro Cirilo</b>
+          <span class="flex">
+            <span class="player__title">Tavo the produce</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="y2mate.com - EN VENTA NEGRO CIRILO  INSTRUMENTAL DE RANCHA Prod By TAVO THE PRODUCER.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="The ink spots.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">I don't want to set the world in fire</b>
+          <span class="flex">
+            <span class="player__title">The ink spots</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="y2mate.com - I dont want to set the world on Fire  The Ink Spots LetraLyrics.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Imagine dragons.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Believer</b>
+          <span class="flex">
+            <span class="player__title">Imagine dragons</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Imagine Dragons  Believer Official Music Video.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Morat Juanes.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">506</b>
+          <span class="flex">
+            <span class="player__title">Morat Juanes</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Morat Juanes  506.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="My_Chemical_Romance.webp" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Dead</b>
+          <span class="flex">
+            <span class="player__title">My chemical romance</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - My Chemical Romance  Dead.mp3"></audio>
+      </li>
+
+      <li class="player__song">
+        <img class="player__img img" src="olivia.webp" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Drivers license</b>
+          <span class="flex">
+            <span class="player__title">Olivia rodrigo</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Olivia Rodrigo  drivers license Official Video.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Rata Blanca.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">La Leyenda Del Hada y El Mago</b>
+          <span class="flex">
+            <span class="player__title">Rata Blanca</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Rata Blanca  La Leyenda Del Hada Y El Mago Audio.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Stray Kids.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Youtiful</b>
+          <span class="flex">
+            <span class="player__title">Stray Kids</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Stray Kids Youtiful Video.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="La del rey.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Young and beautiful</b>
+          <span class="flex">
+            <span class="player__title">Lana del rey</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Young  Beautiful  Lana Del Rey DH Orchestral Version.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="papa roach.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">She love me not</b>
+          <span class="flex">
+            <span class="player__title">papa roach</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Papa Roach  She Loves Me Not.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="chop suey.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name"> System of a down</b>
+          <span class="flex">
+            <span class="player__title">Chop Suey!</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - System Of A Down  Chop Suey Official HD Video.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Montesanto.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Santo es el que vive</b>
+          <span class="flex">
+            <span class="player__title">Montesanto</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Santo es el que Vive  Montesanto Video Oficial.mp3.crdownload"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="new winw.jpeg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Incomprensible amor</b>
+          <span class="flex">
+            <span class="player__title">New wine</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Incomprensible Amor en vivo  Vientos de Gloria  New Wine.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="barak.webp" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Derrama tu Gloria</b>
+          <span class="flex">
+            <span class="player__title">barak</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="y2mate.com - Barak  Derrama De Tu Gloria ft Thalles Roberto   Video Oficial  Radical Live.mp3.crdownload"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="christine d'clario.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Danzando</b>
+          <span class="flex">
+            <span class="player__title">christine d'clario</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="y2mate.com - Danzando  Video Lyric Oficial  Christine DClario Travy Joe  Gateway Worship Español.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="grace rodriguez.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Nadie puede detenerle</b>
+          <span class="flex">
+            <span class="player__title">Grace Rodríguez</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="y2mate.com - NADIE PUEDE DETENERLE  gracerodriguezvazquezofici6921  Letra.mp3.crdownload"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Oasis Ministry.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Yahweh se manifestará</b>
+          <span class="flex">
+            <span class="player__title">Oasis Ministry</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="y2mate.com - Oasis Ministry   Yahweh Se Manifestará  Hijos Live  ColectivoRD.mp3.crdownload"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Felixis Falcón ft. Chanel Novas.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Vasija quebrantada</b>
+          <span class="flex">
+            <span class="player__title">Felixis Falcón ft. Chanel Novas</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="y2mate.com - VASIJA QUEBRANTADA  Felixis Falcón ft Chanel Novas VIDEO OFICIAL.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Virginia Brito.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Sobre alas de paloma</b>
+          <span class="flex">
+            <span class="player__title">Virginia Brito</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Sobre Alas De Paloma  Billy Bunster Pastora Virginia Brito.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Tomás Ocampo.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Valle de lagrimas</b>
+          <span class="flex">
+            <span class="player__title"> Tomás Ocampo</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Valle de lágrimas  Tomás Ocampo  con letra.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Generación 12.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Quiero conocer a jesus</b>
+          <span class="flex">
+            <span class="player__title">Generación 12</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="y2mate.com - Quiero Conocer a Jesus YeshuaNuestro Dios Letra  Generación 12.mp3.crdownload"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="Oasis Ministry.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Algo esta pasando</b>
+          <span class="flex">
+            <span class="player__title">Oasis Ministry</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="y2mate.com - Oasis Ministry  Algo Esta Pasando Hijos Live.mp3"></audio>
+      </li>
+    </ul>
+  </div>
+  <script src="/player.js"></script>
+</body>
+
+</html>
